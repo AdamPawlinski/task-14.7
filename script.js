@@ -1,5 +1,2 @@
-// var app = React.createElement(App);
-var app = (
-  <App/>
-)
+var app = React.createElement(App);
 ReactDOM.render(app, document.getElementById('app'));
